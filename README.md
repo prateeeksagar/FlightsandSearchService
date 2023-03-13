@@ -1,4 +1,4 @@
-# Welcome to flight searching mircro service functionality using nodejs
+# Welcome to flighs and Search mircro service functionality using nodejs
 
 # project setup
 
