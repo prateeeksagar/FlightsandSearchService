@@ -19,3 +19,10 @@
   }
 }
 ```
+
+# DB design
+
+-Airplane table
+-Flight
+-Airport
+-City
