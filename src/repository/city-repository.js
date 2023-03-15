@@ -11,6 +11,7 @@ class CityRepository {
       throw { error };
     }
   }
+
   // to delete city from the database table
   async deleteCity(cityId) {
     try {
@@ -25,6 +26,7 @@ class CityRepository {
       throw { error };
     }
   }
+
   //update city from db using id
   async updateCity(cityId, data) {
     try {
@@ -39,6 +41,7 @@ class CityRepository {
       throw { error };
     }
   }
+
   //fetching the details using id from city table
   async getCity(cityId) {
     try {
