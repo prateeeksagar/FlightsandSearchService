@@ -26,3 +26,11 @@
 -Flight
 -Airport
 -City
+
+## tables
+
+### city -> id, name, created_at, updated_at
+
+### airport -> id, name, address, city_id, created_at, updated_at
+
+relationship -> City has many airport but Airport belongs to one city (one to many)
