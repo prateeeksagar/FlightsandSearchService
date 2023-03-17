@@ -34,3 +34,8 @@
 ### airport -> id, name, address, city_id, created_at, updated_at
 
 relationship -> City has many airport but Airport belongs to one city (one to many)
+
+### for seeding
+
+npx sequelize seed:generate --name add-airplanes
+npx sequelize db:seed:all
