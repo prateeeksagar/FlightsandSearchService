@@ -92,7 +92,7 @@ const getAll = async (req, res) => {
     return res.status(200).json({
       data: cities,
       success: true,
-      message: "successfully updated the city",
+      message: "successfully fetched the city",
       err: {},
     });
   } catch (error) {
